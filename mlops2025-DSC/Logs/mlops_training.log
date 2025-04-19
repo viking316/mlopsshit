@@ -1,0 +1,48 @@
+2025-04-19 14:35:02 - INFO - \U0001f680 Starting Data Processing Step
+2025-04-19 14:35:32 - INFO - \U0001f680 Starting Data Processing Step
+2025-04-19 14:35:32 - INFO - \u2705 Loaded dataset: 500 rows, 9 columns
+2025-04-19 14:35:32 - INFO - Label encoder saved at D:/MLOPS 1BM23AI402/mlops2025-DSC/Artifacts\label_encoder.pkl
+2025-04-19 14:35:32 - INFO - \u2705 Target variable encoded and saved at D:/MLOPS 1BM23AI402/mlops2025-DSC/Artifacts\label_encoder.pkl
+2025-04-19 14:35:32 - INFO - Data processing pipeline created successfully.
+2025-04-19 14:35:32 - INFO - Pipeline saved at D:/MLOPS 1BM23AI402/mlops2025-DSC/Artifacts\data_processing_pipeline.pkl
+2025-04-19 14:35:32 - INFO - \u2705 Data pipeline created and saved at D:/MLOPS 1BM23AI402/mlops2025-DSC/Artifacts\data_processing_pipeline.pkl
+2025-04-19 14:35:32 - INFO - \u2705 Data split completed
+2025-04-19 14:35:32 - INFO - Model trained and saved at D:/MLOPS 1BM23AI402/mlops2025-DSC/Artifacts\best_classifier.pkl
+2025-04-19 14:35:32 - INFO - \u2705 Model trained and saved at D:/MLOPS 1BM23AI402/mlops2025-DSC/Artifacts\best_classifier.pkl
+2025-04-19 14:35:32 - INFO - Model loaded successfully.
+2025-04-19 14:35:32 - INFO - \u2705 Predictions completed
+2025-04-19 14:35:32 - INFO - Model loaded successfully.
+2025-04-19 14:35:32 - INFO - Model evaluation completed.
+2025-04-19 14:35:32 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-04-19 14:35:32 - INFO - Accuracy Score: 1.0
+2025-04-19 14:35:32 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+2025-04-19 14:35:32 - INFO - \u2705 Model evaluation completed
+2025-04-19 14:35:32 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-04-19 14:35:32 - INFO - Accuracy Score: 1.0
+2025-04-19 14:35:32 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
